@@ -1,0 +1,25 @@
+<!-- <div><li><a routerLink="home">Home</a></li>
+    <li class="users"><a routerLink="register">Register</a></li>
+     <li><a *ngIf="!isLoggedIn" routerLink="login">Login</a></li>
+         <li><a *ngIf="isLoggedIn" href="javascript:void" (click)="logout()">Logout</a></li>
+</div> -->
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="home" routerLinkActive="active">
+          <img src="/assets/images/car4nowlogoblack.png" width="30" height="30" class="d-inline-block align-top" style="border-radius: 50%" alt="Logo"></a>   
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a routerLink="cars" routerLinkActive="active">Cars</a></li>
+        <li><a routerLink="about" routerLinkActive="active">About</a></li>
+        <li><a routerLink="contact-us" routerLinkActive="active">Contact Us</a></li>
+        <li><a routerLink="search" routerLinkActive="active">Search</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"routerLink="register" routerLinkActive="active"><span class="glyphicon glyphicon-user" ></span> Sign Up</a></li>
+        <li><a href="#"routerLink="login" routerLinkActive="active"><span class="glyphicon glyphicon-log-in" ></span> Log-in</a></li>
+      </ul>
+    </div>
+  </nav>

@@ -1,0 +1,52 @@
+div {
+    height: 100%;
+    width:100%;
+    overflow: auto;
+}
+
+h2{
+    color:wheat;
+margin: 20px;
+font-size: 2.5em;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    
+    background: rgba(238, 238, 238, 0.2);
+    padding: 2em;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    display: grid;
+    grid-template-columns: 20%  50% 30%;
+    
+}
+
+li > p{
+    font-weight: bold;
+    font-size: 2em;
+    color:black;
+    grid-column-start: 2;
+}
+li > img{
+    border-radius: 50%;
+    width: 100%;
+    grid-column-start: 1;
+  
+}
+li > span{
+    font-weight: bold;
+    font-size: 2em;
+    grid-column-start: 3;
+    
+}
+li > app-car-details{
+    column-fill:span 3;
+    grid-column-start: 1;
+
+}

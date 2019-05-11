@@ -1,0 +1,91 @@
+<!-- <div class="row">
+    <div class="col s8 offset-s2">
+      <div class="card">
+        <div class="sm-jumbotron center-align">
+          <h2>User Registration</h2>
+        </div>
+  
+        <form class="col s12 white" #userRegistrationForm="ngForm" (ngSubmit)="OnSubmit(userRegistrationForm)">
+  
+          <div class="row">
+            <br>
+            <div class="input-field col s6">
+              <input class="validate" type="text" name="username" #userName="ngModel" [(ngModel)]="user.username"
+                required>
+              <label data-error="Required field!">UserName</label>
+            </div>
+  
+            <div class="input-field col s6">
+              <input class="validate" type="password" name="password" #Password="ngModel" [(ngModel)]="user.password"
+                required minlength="3">
+              <label [attr.data-error]="password.errors!=null?(password.errors.required?'Required field!':'Minimum 3 characters needed'):''">Password</label>
+            </div>
+  
+          </div>
+  
+          <div class="row">
+            <div class="input-field col s12">
+              <input class="validate" type="text" name="email" [(ngModel)]="user.email" [pattern]="emailPattern">
+              <label data-error="Invalid email!">Email</label>
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="input-field col s6">
+              <input type="text" name="fullname" [(ngModel)]="user.fullname">
+              <label>FullName</label>
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="input-field col s6">
+              <input type="text" name="gender" [(ngModel)]="user.gender">
+              <label>Gender</label>
+            </div>
+          </div>
+  
+          <div class="row">
+              <div class="input-field col s6">
+                <input type="date" name="birthdate" [(ngModel)]="user.birthdate">
+                <label>birthdate</label>
+              </div>
+            </div>
+  
+          <div class="row">
+            <div class="input-field col s12">
+              <button [disabled]="!userRegistrationForm.valid" class="btn-large btn-submit" type="submit">Submit</button>
+            </div>
+          </div>
+        </form> -->
+
+
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+
+ <div class="wrapper fadeInDown">
+  <div id="formContent">
+
+    <div class="fadeIn first">
+      <img src="assets/images/car4nowlogocircle.png" id="icon" alt="User Icon" />
+    </div>
+
+    <form #formInfo="ngForm" class="loginForm" #userRegistrationForm="ngForm" (ngSubmit)="OnSubmit(userRegistrationForm)"> 
+      <input type="text" class="fadeIn second" placeholder="Username" #usernameInfo="ngModel" name="username" #userName="ngModel" [(ngModel)]="user.username"
+      required>
+      <input type="text" id="password" class="fadeIn third"  placeholder="Password" #passwordInfo="ngModel"  type="password" name="password" #Password="ngModel" [(ngModel)]="user.password"
+      required minlength="3" placeholder="Password">
+      <input class="fadeIn second" type="text" name="email" [(ngModel)]="user.email" [pattern]="emailPattern" placeholder="Email">
+      <input class="fadeIn second" type="text" name="fullname" [(ngModel)]="user.fullname" placeholder="Full Name">
+      <input class="fadeIn third" type="text" name="gender" [(ngModel)]="user.gender" placeholder="Gender (Male/Female)">
+      <input class="fadeIn third" type="date" name="birthdate" [(ngModel)]="user.birthdate" placeholder="Birth-date">
+
+      <input  class="fadeIn fourth" value="Register"  [disabled]="!userRegistrationForm.valid" type="submit">
+    </form>
+
+    <div id="formFooter">
+      <a class="underlineHover" (click)="ForgotPassword()">Forgot Password?</a>
+    </div>
+
+  </div>
+</div> 

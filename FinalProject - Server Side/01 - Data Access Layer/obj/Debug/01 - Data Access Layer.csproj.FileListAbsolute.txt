@@ -1,0 +1,24 @@
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\bin\Debug\01 - Data Access Layer.dll.config
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\bin\Debug\01 - Data Access Layer.dll
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\bin\Debug\01 - Data Access Layer.pdb
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\bin\Debug\EntityFramework.dll
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\bin\Debug\EntityFramework.xml
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\obj\Debug\01 - Data Access Layer.csprojAssemblyReference.cache
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\obj\Debug\01 - Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\obj\Debug\01 - Data Access Layer.csproj.CopyComplete
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\obj\Debug\01 - Data Access Layer.dll
+C:\Users\itay\source\repos\FinalProject1\01 - Data Access Layer\obj\Debug\01 - Data Access Layer.pdb
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\bin\Debug\01 - Data Access Layer.dll.config
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\bin\Debug\01 - Data Access Layer.dll
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\bin\Debug\01 - Data Access Layer.pdb
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\bin\Debug\EntityFramework.dll
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\bin\Debug\EntityFramework.xml
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\obj\Debug\01 - Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\obj\Debug\01 - Data Access Layer.csproj.CopyComplete
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\obj\Debug\01 - Data Access Layer.dll
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\obj\Debug\01 - Data Access Layer.pdb
+C:\Final Project\FinalProject - Server Side\01 - Data Access Layer\obj\Debug\01 - Data Access Layer.csprojAssemblyReference.cache

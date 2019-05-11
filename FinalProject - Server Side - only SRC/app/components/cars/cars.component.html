@@ -1,0 +1,36 @@
+<!-- <table class="table table-striped table-dark">
+      <tr>
+        <th >CarID</th>
+        <th >Manufaturer</th>
+        <th >Model</th>
+        <th >Dayprice</th>
+        <th >Latedayprice</th>
+        <th >Productionyear</th>
+        <th >Gear</th>
+      </tr>
+      <tr *ngFor="let c of cars">
+        <td  >{{c.carid}}</td>
+        <td >{{c.manufacturer}}</td>
+        <td >{{c.model}}</td>
+        <td >{{c.dayprice}}</td>
+        <td >{{c.latedayprice}}</td>
+        <td >{{c.productionyear}}</td>
+        <td >{{c.gear}}</td>
+      </tr>
+    </table> -->
+
+
+
+
+
+
+<div class="card-group">
+  <div class="card"  *ngFor="let c of cars">
+    <img class="card-img-top" [src]=c.image>
+    <div class="card-body">
+      <h2 class="card-title">{{c.manufacturer}} {{c.model}}</h2>
+      <h3 class="card-text">{{c.productionyear}} <br><br> Price Per Day: {{c.dayprice}}$</h3>
+      <app-cardetails [id]=c.carid>Details</app-cardetails>
+    </div>
+  </div>
+</div>

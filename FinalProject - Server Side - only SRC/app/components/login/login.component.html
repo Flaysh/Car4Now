@@ -1,0 +1,35 @@
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="assets/images/car4nowlogocircle.png" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form #formInfo="ngForm" class="loginForm" (ngSubmit)="login()" autocomplete="off" >
+      <input type="text" id="login" class="fadeIn second" name="username" placeholder="Login" #usernameInfo="ngModel" [(ngModel)]="credentials.username">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password" #passwordInfo="ngModel" [(ngModel)]="credentials.password">
+      <input type="submit" class="fadeIn fourth" value="Login">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" routerLink="/register" >Register</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- <form #formInfo="ngForm" class="loginForm" novalidate (ngSubmit)="login()" autocomplete="off">
+  <input #usernameInfo="ngModel" required type="text" name="username" [(ngModel)]="credentials.username"
+    placeholder="Username...">
+   <span *ngIf="usernameInfo.errors?.required && usernameInfo.touched">Missing username.</span> 
+  <br><br>
+  <input #passwordInfo="ngModel" required type="password" name="password" [(ngModel)]="credentials.password"
+    placeholder="Password...">
+   <span *ngIf="passwordInfo.touched && passwordInfo.invalid">Missing password.</span> 
+  <br><br>
+  <input type="submit" value="Login" class="btn btn-lg btn-info" [disabled]="loginForm.invalid" />
+</form> -->

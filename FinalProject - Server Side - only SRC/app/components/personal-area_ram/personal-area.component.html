@@ -1,0 +1,13 @@
+<div>
+    
+  
+    <ul *ngIf="clients">
+      <li *ngFor="let c of clients">
+        <img [src]=c.clientIMG>
+        <p>{{c.clientName}}<br>{{c.clientIDnumber}} </p>
+     <!--   <span><br> Price Per Day: {{c.carPricePerDay}}<br><br> Avalible in : {{c.carBranchName}}</span>
+        <br>
+      <a><app-car-details [id] = this.c.carID></app-car-details></a> -->
+      </li>
+    </ul>
+  </div>

@@ -1,0 +1,20 @@
+<button *ngIf="!showdetails" (click)="more()" class="btn btn-primary btn-lg">More Details</button>
+<button *ngIf="showdetails" (click)="less()" class="btn btn-secondary btn-lg">Less Details</button>
+
+<div *ngIf="showdetails">
+  <ul class="list-group">
+    <li class="list-group-item list-group-item-info">Gear: {{cardetails.gear}}</li>
+    <li class="list-group-item list-group-item-info">Car Type: {{cardetails.cartype}}</li>
+    <li class="list-group-item list-group-item-info">Kilometer: {{cardetails.kilometer}}</li>
+    <li class="list-group-item list-group-item-info">Proper: {{cardetails.proper}}</li>
+    <li class="list-group-item list-group-item-info">Vacant: {{cardetails.vacant}}</li>
+    <li class="list-group-item list-group-item-info">Branch Name: {{cardetails.branchname}}</li>
+    <li class="list-group-item list-group-item-info">Branch Location: {{cardetails.branchlocation}}</li>
+  </ul>
+<button routerLink="ordercar/{{cardetails.carid}}" class="btn btn-success btn-lg">Order Now</button>
+</div>
+
+
+
+
+<!-- <app-order-car [id]=cardetails.carid>Order Now</app-order-car> -->

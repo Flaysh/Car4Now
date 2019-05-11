@@ -1,0 +1,21 @@
+section  {
+   height: 100%;
+   /* border: 2px solid black; */
+   text-align: center;
+   box-sizing: border-box;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   grid-template-rows: 6% 84% 10%;
+   height: 100%;
+
+}
+ 
+header, footer{
+   grid-column: span 12;
+}
+
+main {
+   grid-column: span 12;
+}
+
+

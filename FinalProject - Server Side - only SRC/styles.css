@@ -1,0 +1,17 @@
+html, body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   background-image: url("/assets/images/caebackground.jpg");
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center; 
+   font-family: 'Karla', sans-serif;
+}
+
+a {
+   color: rgb(0, 183, 255);
+}
+

@@ -1,0 +1,39 @@
+<img [src]="car.image">
+<div id="booking" class="section">
+  <div class="section-center">
+    <div class="container">
+      <div class="row">
+        <div class="booking-form">
+          <div class="form-header">
+            <h1>Book {{car.manufacturer}} {{car.model}}</h1>
+          </div>
+          <form>
+              <input type="number" name="userid" [(ngModel)]="rental.userid" placeholder="User ID"> 
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <span class="form-label">Pickup Date</span>
+                  <input class="form-control" type="date" (input)="datestart=$event.target.value" required [(ngModel)]="rental.startdate" name="startdate">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <span class="form-label">Return Date</span>
+                  <input class="form-control" type="date" (input)="datefinish=$event.target.value" required [(ngModel)]="rental.enddate" name="enddate">
+                </div>
+              </div>
+              <h1 *ngIf="totalCostPerDay()">Total cost is {{totalCostPerDay()}} $ </h1>
+            </div>
+            <div class="form-btn">
+              <button class="submit-btn" (click)="orderCar()" >Book Now</button>
+            </div>
+            <div class="form-group">
+              <span class="form-label">Pickup Location : {{car.branchname}} , {{car.branchlocation}}</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<button routerLink="/cars" routerLinkActive="active" class="btn btn-primary btn-lg">Back</button>
