@@ -1,6 +1,6 @@
 
-# Car rental application 🚗
-<img style="margin:auto"src="https://i.imgur.com/BcWWw9T.png" alt="Logo" width="400">
+# Car4Now - Car rental application 🚗 
+![](https://i.imgur.com/E0orDrg.png)
 
 This car rental application based on Client-server model.
 In this application I used Relational Database - SQL Server, Server side technologies: C#, SQL, Entity Framework and RESTful Service (Web API) and Client side technologies: HTML, CSS, Bootstrap, JavaScript, TypeScript, Angular 7 and AJAX.
